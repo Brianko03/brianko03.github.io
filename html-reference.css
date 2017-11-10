@@ -1,0 +1,74 @@
+body{
+  background: linear-gradient(to bottom right, #1EF59A, #1EF5D8);
+  /*Change colors slightly from the first color to the second color as the page is scrolled*/
+}
+.title {
+  font-family: 'Vollkorn SC', serif;
+  text-align:center;
+  padding: 16px;
+  background-color:#B488DE;
+  color:white;
+  border: 5px solid #BB95E0; /*Slight color difference border contrast*/
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.links{
+  font-size: 24px;
+  font-family: 'Lato', serif;
+  color: #0032FF;
+}
+.blueheading{ /*Blue heading for Sub sections*/
+  font-family: 'Spectral SC', serif;
+  text-align:center;
+  background-color: #3786F8;
+  border: 5px solid #438DF7; 
+  color:white;
+  padding: 12px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); /*Shadow Effect*/
+}
+.redheading{ /*Red headings for Examples*/
+  background-color:#FE4B4B;
+  border: 5px solid #F35959;
+  padding: 8px;
+  text-align:center;
+  font-family: 'Spectral SC', serif;
+  color:white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.table{
+  font-family: 'Courier New', sans-serif;
+  padding:8px;
+  border-collapse: collapse;
+}
+th,td{
+  border:1px solid black;
+}
+th{
+  color: #BD00FF;
+  background-color: #00FFF7;
+}
+tr:nth-child(even){ /*Every two rows, the customization changes*/
+  background-color: #CCFFCC;
+}
+tr:nth-child(odd){
+  background-color: #CCFFFF;
+}
+.border{
+  width:auto;
+  background-color:#f1f1f1;
+  padding: 0.01em 16px;
+  margin: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  border-left: 4px solid #418EFF;
+  word-wrap: break-word;
+  font-family: 'Philosopher', sans-serif;
+  word-spacing:1px;
+  ;
+}
+.examples{
+  font-family: 'Alegreya', serif;
+  background-color: white;
+  border: 12px solid #FFFAFA;
+  border-left: 6px solid #418EFF;
+  text-indent: 10px;
+}
