@@ -1,0 +1,17 @@
+body{
+background: -webkit-linear-gradient(left, #00FFCC, #00FF4D);
+}
+h1{
+  background-color: #FE4B4B;
+  padding:8px;
+  color:white;
+  text-align: center;
+  font-family: 'Spectral SC',serif
+}
+h2{
+  font-family:'Vollkorn SC', serif;
+  color:white;
+  text-align:center;
+  background-color: #3786F8;
+  padding:4px;
+}
