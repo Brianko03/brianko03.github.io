@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width", initial-scale="1.0">
-<link href="styles.css" rel="stylesheet" type="text/css"/>
-<title>Fleur</title>
-</head>
-<body>
-</body>
+  <head>
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Bitter|Lato|Philosopher|Spectral+SC|Vollkorn+SC" rel="stylesheet">
+  </head>
+  <body>
+     <div id="sidenav">
+  <div class="toggle-btn" onclick="toggleSidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+   <ul id="position">
+    <li><a href="index.html">Index</a></li>
+    <li><a href="fleur.html">Fleur</a></li>
+    <li><a href="sabre.html">Sabre</a></li>
+    <li><a href="epee.html">Épée</a></li>
+    <li><a href="tournaments.html">Tournaments</a></li>
+  </ul>
+  </div>
+  <br>
+    <h1 id="grad1">Épee</h1>
+    <h2>Introduction</h2>
+    <div id="image">
+    <img src="https://brianko03.github.io/images/epeeblade.jpeg" alt="Epee Blade" style="width:400px;height:auto;">
+    </div>
+    <p>As a thrusting weapon the épée is similar to a foil (compared to a sabre), but has a stiffer blade which is triangular in cross-section with a V-shaped groove called a fuller, has a larger bell guard, and is heavier. The technique however, is somewhat different, as there are no rules regarding priority and right of way. In addition, the entire body is a valid target area.</p>
+    <h3>Background</h3>
+    <div id="image">
+      <img src="https://brianko03.github.io/images/epeelunge.jpg" alt="Epee Lunge" style="width:400px;height:auto;">
+    </div>
+    <p>While modern sport fencing has three weapons (foil, épée, and sabre), each a separate event, épée is the only one in which the entire body is the valid target area. Épée is the heaviest of the three modern fencing weapons. Fencing matches with the épée require a large amount of concentration, accuracy and speed. Since the entire body is a target, a successful épée fencer must be able to anticipate their opponent's moves and strike their opponent at the correct time.
+</p>
+<h3>Target Areas</h3>
+<div id="image">
+<img src="https://brianko03.github.io/images/epeetargets.png" alt="Epee Targets" style="width:400px;height:auto;">
+</div>
+<p>In most higher-level competitions a grounded metal piste is used to prevent floor hits from registering as touches. Unlike sabre and foil, in épée there are no right-of-way rules regarding attacks, other than the aforementioned rule regarding touches with only the point of the weapon. Touches are awarded solely on the basis of which fencer makes a touch first, according to the electronic scoring machines. Also, double-touches are allowed in épée, although the touches must occur within 40 milliseconds (1/25 of a second) of each other.
+</p>
+<script>
+  function toggleSidebar(){
+  document.getElementById("sidenav").classList.toggle('active');
+}
+</script>
+  </body>
 </html>
+
